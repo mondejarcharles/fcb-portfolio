@@ -1,24 +1,40 @@
 body {
-  font-family: sans-serif;
-  margin: auto;
-  max-width: 1280px;
+
+  background-color: #f8f8f8;
+}
+*{
+  font-family: "Roboto",san-serif;
 }
 
-.navbar {
-  background-color: #313236;
-  border-radius: 2px;
-  max-width: 800px;
+#landing {
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar a {
-  color: #aaa;
-  display: inline-block;
-  font-size: 15px;
-  padding: 10px;
-  text-decoration: none;
+img{
+  width: 500px;
+  border-radius: 50%;
 }
 
-.navbar a:hover {
-  color: #ffffff;
+#landing 
+#gallery{
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+ul{
+  list-style: none;
+  padding:0;
+  color: white;
+}
+h2{
+  color: blue;
+}
